@@ -1,0 +1,6 @@
+[submodule "fib-addon"]
+	path = fib-addon
+	url = https://github.com/fibjs/fib-addon.git
+[submodule "nodejieba"]
+	path = nodejieba
+	url = https://github.com/yanyiwu/nodejieba.git
