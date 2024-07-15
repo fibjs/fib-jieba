@@ -1,6 +1,6 @@
 {
   "name": "fib-jieba",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "fibjs binding for jieba.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fibjs/fib-jieba.git"
+    "url": "git+https://github.com/querycatai/fib-jieba.git"
   },
   "keywords": [
     "jieba",
@@ -16,13 +16,13 @@
   ],
   "author": "lion",
   "license": "MIT",
-  "homepage": "https://github.com/fibjs/fib-jieba",
+  "homepage": "https://github.com/querycatai/fib-jieba",
   "binary": {
     "module_name": "fib-jieba",
     "module_path": "./addon",
     "remote_path": "{version}",
     "package_name": "{module_name}-{platform}-{arch}-release.tar.gz",
-    "host": "https://github.com/fibjs/fib-jieba/releases/download/"
+    "host": "https://github.com/querycatai/fib-jieba/releases/download/"
   },
   "dependencies": {
     "@mapbox/node-pre-gyp": "^1.0.11"
